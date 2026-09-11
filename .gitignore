@@ -1,0 +1,12 @@
+## .NET build output
+bin/
+obj/
+*.user
+
+## IDE
+.vs/
+.idea/
+
+## Runtime artifacts (generated on first run, not part of the source)
+src/bin/**/diagnostic.log
+src/bin/**/settings.txt
